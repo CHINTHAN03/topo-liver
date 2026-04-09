@@ -9,22 +9,17 @@ By leveraging high-performance 3D WebGL rendering (Three.js) coupled with a stri
 
 ---
 
-## Visual Demonstrations (Placeholders)
+## Visual Demonstrations 
 
 <div align="center">
   
-  <!-- Image 1: Main Dashboard -->
-  
+ 
+https://github.com/user-attachments/assets/dd3b4d5d-f347-45cb-b521-fc77feeb6e8e
+
+<p><i>Figure 1: Main clinical dashboard featuring the FIB-4 metabolic assessment, Lab Parameter Panels, and diagnostic overlays.</i></p> 
+
   <img width="1920" height="1080" alt="med-dash" src="https://github.com/user-attachments/assets/b86d02e1-fd3f-4e3d-acfa-9e5a6da7152e" />
-  <p><i>Figure 1: Main clinical dashboard featuring the FIB-4 metabolic assessment, Lab Parameter Panels, and diagnostic overlays.</i></p>
-
-  <!-- Image 2: The Liver 3D Shader Simulation -->
   
-  <video src="med-rec.mp4" width="100%"></video>
-  <p><i>Figure 2: Real-time WebGL Vertex Displacement showing progression from healthy macroscopic tissue to Steatosis (lipid accumulation) and Macronodular Cirrhosis (scarring).</i></p>
-
-  
-
 </div>
 
 ---
@@ -71,19 +66,19 @@ End-stage liver disease leads to systemic vasodilation, resulting in a hyperdyna
 ### 1. Start the Java Algorithmic Engine
 Due to strict port binding requirements ensuring accurate cross-origin WebSocket telemetry (bypassing IPv6 localhost locks), boot the backend using the provided automation script:
 
-\\\powershell
-cd backend
-.\start.ps1
-\\\
+powershell
+* cd backend
+* .\start.ps1
+
 *(This script will intelligently hunt down and assassinate any hanging TCP processes on port 8080 before executing a clean mvn spring-boot:run environment).*
 
 ### 2. Start the Frontend Clinical Client
-\\\ash
-cd frontend
-npm install
-npm run dev
-\\\
-Navigate to [http://127.0.0.1:3000](http://127.0.0.1:3000)
+
+* cd frontend
+* npm install
+* npm run dev
+
+
 
 ---
 
