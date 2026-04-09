@@ -20,7 +20,7 @@ By leveraging high-performance 3D WebGL rendering (Three.js) coupled with a stri
 
   <!-- Image 2: The Liver 3D Shader Simulation -->
   
-  <video src="video/med-rec.mp4" width="100%"></video>
+  <video src="med-rec.mp4" width="100%"></video>
   <p><i>Figure 2: Real-time WebGL Vertex Displacement showing progression from healthy macroscopic tissue to Steatosis (lipid accumulation) and Macronodular Cirrhosis (scarring).</i></p>
 
   
