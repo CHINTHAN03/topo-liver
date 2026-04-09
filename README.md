@@ -16,15 +16,19 @@ By leveraging high-performance 3D WebGL rendering (Three.js) coupled with a stri
   
   <!-- Image 1: Main Dashboard -->
   <img src="images/dashboard_overview.png" alt="HMAT Main Dashboard Dashboard Overview" width="800"/>
+  <img width="1920" height="1080" alt="med-dash" src="https://github.com/user-attachments/assets/b86d02e1-fd3f-4e3d-acfa-9e5a6da7152e" />
+
+
+  
   <p><i>Figure 1: Main clinical dashboard featuring the FIB-4 metabolic assessment, Lab Parameter Panels, and diagnostic overlays.</i></p>
 
   <!-- Image 2: The Liver 3D Shader Simulation -->
   <img src="images/fibrosis_simulation.gif" alt="3D Liver Displacements (MASLD/Fibrosis)" width="800"/>
+
+  
   <p><i>Figure 2: Real-time WebGL Vertex Displacement showing progression from healthy macroscopic tissue to Steatosis (lipid accumulation) and Macronodular Cirrhosis (scarring).</i></p>
 
-  <!-- Image 3: ECG Cardiomyopathy Simulation -->
-  <img src="images/ecg_cardiomyopathy.png" alt="Cirrhotic Cardiomyopathy ECG" width="800"/>
-  <p><i>Figure 3: Dynamically generated SVG ECG waveform utilizing the mathematical QTc interval to model the repolarization delays indicative of Cirrhotic Cardiomyopathy.</i></p>
+  
 
 </div>
 
