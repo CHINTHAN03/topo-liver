@@ -10,22 +10,17 @@ By leveraging high-performance 3D WebGL rendering (Three.js) coupled with a stri
 ---
 
 ## Visual Demonstrations (Placeholders)
-*(Add your project media in the /images folder as specified below)*
 
 <div align="center">
   
   <!-- Image 1: Main Dashboard -->
-  <img src="images/dashboard_overview.png" alt="HMAT Main Dashboard Dashboard Overview" width="800"/>
-  <img width="1920" height="1080" alt="med-dash" src="https://github.com/user-attachments/assets/b86d02e1-fd3f-4e3d-acfa-9e5a6da7152e" />
-
-
   
+  <img width="1920" height="1080" alt="med-dash" src="https://github.com/user-attachments/assets/b86d02e1-fd3f-4e3d-acfa-9e5a6da7152e" />
   <p><i>Figure 1: Main clinical dashboard featuring the FIB-4 metabolic assessment, Lab Parameter Panels, and diagnostic overlays.</i></p>
 
   <!-- Image 2: The Liver 3D Shader Simulation -->
-  <img src="images/fibrosis_simulation.gif" alt="3D Liver Displacements (MASLD/Fibrosis)" width="800"/>
-
   
+  <video src="video/med-rec.mp4" width="100%"></video>
   <p><i>Figure 2: Real-time WebGL Vertex Displacement showing progression from healthy macroscopic tissue to Steatosis (lipid accumulation) and Macronodular Cirrhosis (scarring).</i></p>
 
   
